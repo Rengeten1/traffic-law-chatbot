@@ -7,7 +7,7 @@ AI chatbot answering questions on German traffic laws using natural language.
 - Topics: speed limits, traffic signs, parking rules.
 - Responsive UI with React and Bootstrap 5.
 - Backend with Node.js, Express.js, and Socket.IO.
-- Intent detection via keyword-spotting (Task 1) or Azure LUIS (Task 3).
+- Intent detection via keyword-spotting.
 - Deployed on Azure App Services with SSL.
 
 ## Setup
