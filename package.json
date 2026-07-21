@@ -4,7 +4,10 @@
   "description": "AI chatbot for German traffic laws",
   "main": "server/index.js",
   "scripts": {
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "postinstall": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "test": "cd client && npm test -- --watchAll=false"
   },
   "keywords": [],
   "author": "",
